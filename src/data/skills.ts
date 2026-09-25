@@ -1,0 +1,63 @@
+import type { SkillGroup } from "@/types/portfolio";
+
+export const skillGroups: SkillGroup[] = [
+  {
+    id: "backend",
+    title: "Backend Engineering",
+    emphasis: "primary",
+    label: "Primary",
+    summary: "Production REST APIs, application security, and persistence with Java and Spring Boot.",
+    skills: [
+      "Java",
+      "Java 21",
+      "Spring Boot",
+      "Spring MVC",
+      "Spring Data JPA",
+      "Hibernate",
+      "Spring Security",
+      "REST APIs",
+      "JWT",
+      "Maven",
+    ],
+  },
+  {
+    id: "data",
+    title: "Database & Data",
+    emphasis: "supporting",
+    label: "Core",
+    summary: "PostgreSQL schema design, Flyway migrations, query optimization, and indexing.",
+    skills: ["PostgreSQL", "SQL", "Flyway", "Database design", "JPA Specifications"],
+  },
+  {
+    id: "integration",
+    title: "API & Integration",
+    emphasis: "supporting",
+    label: "Core",
+    summary: "FHIR R4, OAuth, and third-party REST API integrations.",
+    skills: ["FHIR R4", "OAuth", "Third-party REST APIs", "WebSockets", "Postman"],
+  },
+  {
+    id: "cloud",
+    title: "Cloud & Infrastructure",
+    emphasis: "supporting",
+    label: "Core",
+    summary: "Amazon S3 and Amazon SQS, integrated from application services.",
+    skills: ["AWS", "Amazon S3", "Amazon SQS", "Linux deployment"],
+  },
+  {
+    id: "frontend",
+    title: "Frontend Development",
+    emphasis: "additional",
+    label: "Additional",
+    summary: "Frontend development in React and TypeScript.",
+    skills: ["React", "TypeScript", "JavaScript", "REST API integration"],
+  },
+  {
+    id: "tools",
+    title: "Delivery & Tools",
+    emphasis: "additional",
+    label: "Delivery",
+    summary: "Git, Maven, Jenkins CI/CD, and API testing with Postman.",
+    skills: ["Git", "GitHub", "Jenkins", "CI/CD", "IntelliJ IDEA", "DBeaver"],
+  },
+];
