@@ -1,6 +1,15 @@
-# Meghana S. — Portfolio
+# Meghana S.
 
-Public portfolio for a Java backend developer. Content lives in `src/data` so projects, skills, and contact links can be updated without rewriting the UI.
+Personal website for my work as a Software Engineer at Simplogics Solutions.
+
+I design and build production REST APIs and secure systems with Java, Spring Boot, PostgreSQL, and AWS, and I do frontend development in React. The site covers the systems I have worked on, including Empowered Home, SupaSellr, PicPura, and FinnBee.
+
+## On the site
+
+- Profile and contact
+- Experience at Simplogics Solutions
+- Case studies and architecture for the production services I worked on
+- Education, certifications, and resume
 
 ## Run locally
 
@@ -8,21 +17,3 @@ Public portfolio for a Java backend developer. Content lives in `src/data` so pr
 npm install
 npm run dev
 ```
-
-## Edit content
-
-- `src/data/profile.ts` — name, email, GitHub, LinkedIn
-- `src/data/projects.ts` — case studies
-- `src/data/skills.ts`
-- `src/data/experience.ts`
-- `src/data/certifications.ts` — add `date`, `credentialId`, and `verificationUrl` when you have them
-
-Leave `linkedinUrl` as an empty string until the public profile URL is ready. The LinkedIn icon stays hidden until that field is set.
-
-## Production URL
-
-Set `NEXT_PUBLIC_SITE_URL` to the canonical site origin, for example `https://your-domain.example`. On Vercel, `VERCEL_URL` is used when that variable is absent.
-
-## Resume
-
-`/resume` is a print-friendly page. Use the browser print dialog and choose Save as PDF.
